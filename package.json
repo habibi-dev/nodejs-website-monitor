@@ -1,10 +1,10 @@
 {
   "name": "nodejs-website-monitor",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "tsc && node dist/index.js",
+    "start": "tsc && node dist/src/index.js",
     "dev": "ts-node src/index.ts",
     "watch": "tsc --watch src/index.ts"
   },
@@ -24,6 +24,14 @@
   },
   "homepage": "https://github.com/habibi-dev/nodejs-website-monitor#readme",
   "dependencies": {
+    "axios": "^1.7.7",
+    "lodash": "^4.17.21",
+    "luxon": "^3.5.0",
     "node-schedule": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.9",
+    "@types/luxon": "^3.4.2",
+    "@types/node": "^22.7.4"
   }
 }

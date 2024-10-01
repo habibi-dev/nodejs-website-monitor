@@ -1,4 +1,6 @@
 {
+  "name": "Monitoring USA",
+  "checkTime": 1,
   "sites": [
     {
       "label": "NetBee",
