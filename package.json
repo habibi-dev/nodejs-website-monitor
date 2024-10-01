@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-website-monitor",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "watch": "tsc --watch src/index.ts"
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habibi-dev/nodejs-website-monitor.git"
+  },
+  "keywords": [
+    "monitoring",
+    "nodjs"
+  ],
+  "author": "Habibi-Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/habibi-dev/nodejs-website-monitor/issues"
+  },
+  "homepage": "https://github.com/habibi-dev/nodejs-website-monitor#readme",
+  "dependencies": {
+    "node-schedule": "^2.1.1"
+  }
+}
